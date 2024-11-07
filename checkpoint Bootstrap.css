@@ -1,0 +1,208 @@
+/*Header Section*/
+
+.navbar {
+    background-color: black !important;
+    padding: 20px 0;
+}
+.navbar .navbar-brand {
+    color:#FCB805 !important; 
+    font-size: 24px;
+    font-weight: bold; 
+}
+  
+.navbar .navbar-nav .nav-link {
+    color: white;
+    font-size: 17.6px; 
+    padding: 0 15px; 
+}
+.navbar .navbar-nav .nav-link:hover {
+    color: #FCB805;
+    font-weight: bold;
+}
+
+/* Hero Section */
+
+.hero-section {
+    background-image: url('Tatsy\ food.jpg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    margin: 0;
+    color: white;
+    font-weight: bold;
+}
+
+.hero-section p {
+    font-size: 24px;
+    margin: 8px 0;
+    color: white;
+}
+
+.btn {
+    background-color: #FCB805;
+    color: white;
+    padding: 12px 24px;
+    font-size: 19px;
+    text-decoration: none;
+    border-radius: 4.8px;
+    margin-top: 16px;
+}
+
+.btn:hover {
+    background-color: #d49b0a;
+    color: white;
+}
+  
+/* Menu Section */
+
+.text{
+    color:#FCB805;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -40px;
+}
+.card1 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    transition: 500ms linear;
+}
+.card1:hover {
+    transform: scale(1.1);
+}
+.card2 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    transition: 500ms linear;
+}
+.card2:hover {
+    transform: scale(1.1);
+}
+.card3 {
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 300px;
+    text-align: center;
+    transition: 500ms linear;
+}
+.card3:hover {
+    transform: scale(1.1);
+}
+.btn-primary {
+    background-color: #FCB805;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.btn-primary:hover {
+    background-color: #d49b0a;
+}
+img{
+    width:288px;
+    height: 190px;
+
+}
+.card-title{
+    color: #FCB805;
+}
+.card-text{
+    color: gray;
+}
+
+/* About Us */
+
+.img-fluid{
+    height: auto;
+    width: 70%;
+    border-radius: 8px;
+}
+
+/*Contact Section*/
+
+h2{
+    color:#FCB805;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: -40px;
+    margin-top: -20px ;
+}
+#contact {
+    display: flex;
+    flex-direction: column;  
+    justify-content: center;
+    align-items: center;   
+}
+
+form {
+    width: 100%;
+    max-width: 600px; 
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.btn-block{
+    background-color: #FCB805;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.btn-block:hover {
+    background-color: #d49b0a;
+}
+
+/*Footer Section*/
+
+.copyright{
+    color: black;
+    font-size: 15px;
+    text-align: center;
+    margin-top: -40px;
+    overflow:hidden;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
